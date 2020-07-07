@@ -21,5 +21,10 @@ namespace DBCD.Providers
 
             return new MemoryStream(bytes);
         }
+
+        public void ClearCache()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
